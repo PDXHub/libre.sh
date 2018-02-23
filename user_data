@@ -81,7 +81,7 @@ coreos:
         Type=oneshot
         RemainAfterExit=true
         ExecStart=-/bin/bash -euxc ' \
-          git clone https://github.com/indiehosters/libre.sh.git /libre.sh &&\
+          git clone https://github.com/pdxhub/libre.sh.git /libre.sh &&\
           mkdir /{data,system} &&\
           mkdir /data/trash &&\
           cp /libre.sh/unit-files/* /etc/systemd/system && systemctl daemon-reload &&\
