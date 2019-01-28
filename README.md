@@ -1,10 +1,26 @@
 # libre.sh
+[![Backers on Open Collective](https://opencollective.com/libresh/backers/badge.svg)](#backers)
+ [![Sponsors on Open Collective](https://opencollective.com/libresh/sponsors/badge.svg)](#sponsors) 
 
 ## Introduction
 
-A PaaS that is aimed at hosting free software \o/
+A ecosystem that is aimed at hosting free software \o/
 
-To install it, follow instructions in `INSTALL.md`.
+We are working on bootstrapping an ecosystem of tools to facilitate the hosting of free software.
+Think of it as
+ - [ISPconfig](https://www.ispconfig.org/)
+ - FLOSS [cpanel](https://www.cpanel.net/products/)
+ - [cloudron](https://cloudron.io/) with email
+
+for [kubernetes](https://kubernetes.io/).
+
+This ecosystem can be deployed on [Raspberries](https://kubecloud.io/setting-up-a-kubernetes-1-11-raspberry-pi-cluster-using-kubeadm-952bbda329c8) or on popular cloud providers and scale globally or anything in between. We can affirm that it scales globally because it is based on kubernetes, a tool developped from the experience of Google hosting containers at scale.
+
+## Installation
+
+[![ScreenShot](https://cloud.pierre-o.fr/index.php/apps/files_sharing/ajax/publicpreview.php?x=1364&y=283&a=true&file=preview.png&t=KlxYYFT59GirMJa&scalingup=0)](https://fosdem.org/2017/schedule/event/libre_sh/)
+
+To install it, follow the video above and instructions in `INSTALL.md`.
 
 ### What is libre.sh
 
@@ -100,3 +116,33 @@ You can help us by:
  - writing documentation/blog on how you got up and running in 5mins
  - writing more documentation
  - sending us cake :) We loove cake!
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/indiehosters/libre.sh/graphs/contributors"><img src="https://opencollective.com/libresh/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/libresh#backer)]
+
+<a href="https://opencollective.com/libresh#backers" target="_blank"><img src="https://opencollective.com/libresh/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/libresh#sponsor)]
+
+<a href="https://opencollective.com/libresh/sponsor/0/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/1/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/2/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/3/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/4/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/5/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/6/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/7/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/8/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/libresh/sponsor/9/website" target="_blank"><img src="https://opencollective.com/libresh/sponsor/9/avatar.svg"></a>
+
+

@@ -1,12 +1,28 @@
 #cloud-config
 
+ssh_authorized_keys:
+  - "PUT YOUR SSH KEY PUBLIC HERE"
+
 write_files:
+  - path: /etc/ssh/sshd_config
+    permissions: 0600
+    owner: root:root
+    content: |
+      # Use most defaults for sshd configuration.
+      UsePrivilegeSeparation sandbox
+      Subsystem sftp internal-sftp
+      PermitRootLogin no
+      AllowUsers core
+      PasswordAuthentication no
+      ChallengeResponseAuthentication no
   - path: /etc/sysctl.d/libresh.conf
     permissions: 0644
     owner: root
     content: |
       fs.aio-max-nr=1048576
       vm.max_map_count=262144
+      vm.overcommit_memory=1
+      vm.nr_hugepages=0
   - path: /etc/hosts
     permissions: 0644
     owner: root
@@ -15,7 +31,7 @@ write_files:
       255.255.255.255 broadcasthost
       ::1 localhost
   - path: /etc/environment
-    permission: 0644
+    permissions: 0644
     owner: root
     content: |
       NAMECHEAP_URL="namecheap.com"
